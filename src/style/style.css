@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/******* Header Styling********/
+
+header {
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 100px;
+    height: 36px;
+}
+
+header .HeaderNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .HeaderNav .SearchImage input {
+    position: relative;
+    border-radius: 5px;
+    background: var(--Secondary-100, #F4F4F5);
+}
+
+header .HeaderNav .SearchImage img {
+    position: absolute;
+    width: 16px;
+    height: 23px;
+    right: 180px;
+}
+
+
+header nav ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: var(--Secondary-600, #3B3C4A);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    align-items: center;
+    
+}
+
+nav ul li:hover {
+    cursor: pointer;
+}
+
+/**********Footer Styling******/
+footer h2 {
+    color: var(--Secondary-800, #181A2A);
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+footer h5 {
+    color: var(--Secondary-600, #3B3C4A);
+
+    /* text-base/Regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+footer ul li {
+    list-style: none;
+    color: var(--Secondary-600, #3B3C4A);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer  .logo {
+    display: flex;
+    gap: 20px;
+}
+
+footer  p {
+    color: var(--Secondary-900, #141624);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+footer .LowerHeader{
+    justify-content: space-between;
+}
+
+footer .footerUL{
+    display: flex;
+    gap: 30px;
+    margin-top: 2rem;
+    margin-left: 12rem;
+}

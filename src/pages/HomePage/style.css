@@ -1,0 +1,47 @@
+.TitleImg {
+    position: relative;
+}
+
+h2 {
+    color: var(--Secondary-800, #181A2A);
+
+    /* Heading/h3/Bold */
+    font-family: "Work Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 116.667% */
+}
+
+small {
+    color: blue;
+}
+
+Card {
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+Card CardTitle h2 {
+    color: var(--Secondary-800, #181A2A);
+
+    /* Heading/h3/Semibold */
+    font-family: "Work Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 116.667% */
+}
+
+Card .PostDetails {
+    color: var(--Secondary-400, #97989F);
+    /* Body/b4/Regular */
+    font-family: "Work Sans";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
