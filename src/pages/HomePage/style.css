@@ -23,7 +23,7 @@ Card {
     padding: 20px;
 }
 
-Card CardTitle h2 {
+h3 {
     color: var(--Secondary-800, #181A2A);
 
     /* Heading/h3/Semibold */
@@ -35,13 +35,73 @@ Card CardTitle h2 {
     /* 116.667% */
 }
 
-Card .PostDetails {
+.PostDetails {
     color: var(--Secondary-400, #97989F);
+
     /* Body/b4/Regular */
     font-family: "Work Sans";
-    font-size: 10px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
     /* 150% */
+}
+
+.ViewPosts h4 {
+    color: var(--Secondary-500, #696A75);
+    /* Body/b4/Medium */
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.Advertisement {
+    display: flex;
+    width: 750px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Advertisement small {
+    color: var(--Secondary-500, #696A75);
+    text-align: center;
+
+    /* Body/b5/Regular */
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.Advertisement .CardSubtitle {
+    color: var(--Secondary-500, #696A75);
+    text-align: center;
+
+    /* Heading/h4/Semibold */
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 120% */
+}
+
+.Advertisement .CardText {
+    color: var(--Secondary-500, #696A75);
+    text-align: center;
+
+    /* Body/b3/Regular */
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 144.444% */
 }

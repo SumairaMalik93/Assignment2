@@ -7,7 +7,7 @@ import LogoImg from "../../assets/Images/Logo.svg";
 const Footer = () => {
   return (
     <div>
-      <footer className="my-3">
+      <footer className="my-5">
         <Container>
           <Row>
             <Col className="md-3">
